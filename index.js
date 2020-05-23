@@ -5,4 +5,4 @@ const payload = [{
   // status: "0"
 }];
 
-module.exports = {};
+module.exports = { payload };

@@ -1,2 +1,2 @@
 /** @type import('./nexmoSendSms').NexmoResponse[] */
-declare const payload: import('./nexmoSendSms').NexmoResponse[];
+export const payload: import('./nexmoSendSms').NexmoResponse[];
