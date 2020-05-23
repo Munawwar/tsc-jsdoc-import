@@ -8,6 +8,11 @@ const payload = [{
 }];
 
 module.exports = {
-  types: nexmoSendSms,
+  nexmoSendSms,
   payload,
 };
+
+// export types as well
+/**
+ * @typedef {nexmoSendSms.NexmoResponse} NexmoResponse
+ */
