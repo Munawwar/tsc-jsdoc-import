@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
     "module": "commonjs",
     "moduleResolution": "node",
 
     "checkJs": true,
-    "alwaysStrict": true,
-    "noEmit": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    
+    "noEmit": false,
+    "noEmitOnError": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
   },
   "exclude": [ "node_modules" ],
   "include": [ "*.js" ]

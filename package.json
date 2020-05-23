@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc -p jsconfig.json"
+    "tsc": "rm *.d.ts; tsc -p jsconfig.json"
   },
   "author": "",
   "license": "ISC",
