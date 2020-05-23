@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+
+    "checkJs": true,
+    "alwaysStrict": true,
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "exclude": [ "node_modules" ],
+  "include": [ "*.js" ]
+}
