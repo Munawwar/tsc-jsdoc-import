@@ -4,3 +4,5 @@ const payload = [{
   // messagePrice: 0.02,
   // status: "0"
 }];
+
+module.exports = {};

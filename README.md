@@ -12,3 +12,5 @@ index.js:2:18 - error TS2739: Type '{ messageId: string; }' is missing the follo
 4 }];
   ~
 ```
+
+Fix them, by uncommenting the two lines below it and run `npm run tsc` again. The declaration files are generated.
